@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Cpp\simpleEngine\simpleEngine\build\CMakeFiles\31264bf0c96ae87e9847d8c5e0f2d6c8\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Cpp\simpleEngine\simpleEngine\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Cpp\simpleEngine\simpleEngine\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Cpp\simpleEngine\simpleEngine\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B3E28238-550E-3D85-9BFD-A58DF1AC44CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D9DC5E74-4F42-32E0-8B7C-0A36E58C7E75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Utils\test.cpp">
+    <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\Utils\test.hpp">
+    <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\application.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

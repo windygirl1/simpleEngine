@@ -1,4 +1,13 @@
+D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/INSTALL.dir
 D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/ALL_BUILD.dir
 D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/ZERO_CHECK.dir
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/CMakeFiles/SimpleEngineCore.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/CMakeFiles/INSTALL.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/CMakeFiles/uninstall.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/CMakeFiles/INSTALL.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/src/CMakeFiles/glfw.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/src/CMakeFiles/update_mappings.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/src/CMakeFiles/INSTALL.dir
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineEditor/CMakeFiles/SimpleEngineEditor.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineEditor/CMakeFiles/INSTALL.dir

@@ -1,13 +1,22 @@
 #include <iostream>
+#include <memory>
+#include <simpleEngineCore/application.hpp>
 
-#include <simpleEngineCore/Utils/test.hpp>
+class myAppClass : public SimpleEngine::Application {
+	virtual void onUpdate() override {
+		std::cout << "Update frame: " << frame++ << std::endl;
+	}
+
+	int frame = 0;
+};
+
 
 int main() {
-	std::cout << "Hello from SimpleEngineEditor" << std::endl;
+	
+	auto myApp = std::make_unique<myAppClass>();
 
-	SimpleEngine::sayHello();
+	
+	int returnCode = myApp->start(800, 600, "HIHIHIHIH");
 
-	std::cin.get();
-
-	return 0;
+	return returnCode;
 }

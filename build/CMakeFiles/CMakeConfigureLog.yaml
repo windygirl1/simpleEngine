@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
-      Сборка начата 12.02.2024 13:43:24.
+      Сборка начата 12.02.2024 14:03:50.
       
       Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.50
+      Прошло времени 00:00:00.55
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
-      Сборка начата 12.02.2024 13:43:25.
+      Сборка начата 12.02.2024 14:03:51.
       
       Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.49
+      Прошло времени 00:00:00.67
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,48 +127,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-h6sqo1"
-      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-h6sqo1"
+      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-q1hyi9"
+      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-q1hyi9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-h6sqo1'
+        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-q1hyi9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_132a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3d88f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
-        Сборка начата 12.02.2024 13:43:26.
+        Сборка начата 12.02.2024 14:03:51.
         
-        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sqo1\\cmTC_132a7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1hyi9\\cmTC_3d88f.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_132a7.dir\\Debug\\".
+          Создание каталога "cmTC_3d88f.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sqo1\\Debug\\".
-          Создание каталога "cmTC_132a7.dir\\Debug\\cmTC_132a7.tlog\\".
+          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1hyi9\\Debug\\".
+          Создание каталога "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_132a7.dir\\Debug\\cmTC_132a7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_132a7.dir\\Debug\\cmTC_132a7.tlog\\unsuccessfulbuild".
+          Создание "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_132a7.dir\\Debug\\\\" /Fd"cmTC_132a7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d88f.dir\\Debug\\\\" /Fd"cmTC_3d88f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_132a7.dir\\Debug\\\\" /Fd"cmTC_132a7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d88f.dir\\Debug\\\\" /Fd"cmTC_3d88f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sqo1\\Debug\\cmTC_132a7.exe" /INCREMENTAL /ILK:"cmTC_132a7.dir\\Debug\\cmTC_132a7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-h6sqo1/Debug/cmTC_132a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-h6sqo1/Debug/cmTC_132a7.lib" /MACHINE:X64  /machine:x64 cmTC_132a7.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_132a7.vcxproj -> D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sqo1\\Debug\\cmTC_132a7.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1hyi9\\Debug\\cmTC_3d88f.exe" /INCREMENTAL /ILK:"cmTC_3d88f.dir\\Debug\\cmTC_3d88f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-q1hyi9/Debug/cmTC_3d88f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-q1hyi9/Debug/cmTC_3d88f.lib" /MACHINE:X64  /machine:x64 cmTC_3d88f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3d88f.vcxproj -> D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1hyi9\\Debug\\cmTC_3d88f.exe
         FinalizeBuildStatus:
-          Файл "cmTC_132a7.dir\\Debug\\cmTC_132a7.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_132a7.dir\\Debug\\cmTC_132a7.tlog\\cmTC_132a7.lastbuildstate".
-        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sqo1\\cmTC_132a7.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_3d88f.dir\\Debug\\cmTC_3d88f.tlog\\cmTC_3d88f.lastbuildstate".
+        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q1hyi9\\cmTC_3d88f.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.47
+        Прошло времени 00:00:00.49
         
       exitCode: 0
   -
@@ -180,48 +180,224 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-8snreb"
-      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-8snreb"
+      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-mfmnny"
+      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-mfmnny"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-8snreb'
+        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-mfmnny'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c9f4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4412c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
-        Сборка начата 12.02.2024 13:43:26.
+        Сборка начата 12.02.2024 14:03:52.
         
-        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8snreb\\cmTC_c9f4d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfmnny\\cmTC_4412c.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_c9f4d.dir\\Debug\\".
+          Создание каталога "cmTC_4412c.dir\\Debug\\".
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8snreb\\Debug\\".
-          Создание каталога "cmTC_c9f4d.dir\\Debug\\cmTC_c9f4d.tlog\\".
+          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfmnny\\Debug\\".
+          Создание каталога "cmTC_4412c.dir\\Debug\\cmTC_4412c.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_c9f4d.dir\\Debug\\cmTC_c9f4d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_c9f4d.dir\\Debug\\cmTC_c9f4d.tlog\\unsuccessfulbuild".
+          Создание "cmTC_4412c.dir\\Debug\\cmTC_4412c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4412c.dir\\Debug\\cmTC_4412c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9f4d.dir\\Debug\\\\" /Fd"cmTC_c9f4d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4412c.dir\\Debug\\\\" /Fd"cmTC_4412c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c9f4d.dir\\Debug\\\\" /Fd"cmTC_c9f4d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4412c.dir\\Debug\\\\" /Fd"cmTC_4412c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8snreb\\Debug\\cmTC_c9f4d.exe" /INCREMENTAL /ILK:"cmTC_c9f4d.dir\\Debug\\cmTC_c9f4d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-8snreb/Debug/cmTC_c9f4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-8snreb/Debug/cmTC_c9f4d.lib" /MACHINE:X64  /machine:x64 cmTC_c9f4d.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c9f4d.vcxproj -> D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8snreb\\Debug\\cmTC_c9f4d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfmnny\\Debug\\cmTC_4412c.exe" /INCREMENTAL /ILK:"cmTC_4412c.dir\\Debug\\cmTC_4412c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-mfmnny/Debug/cmTC_4412c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-mfmnny/Debug/cmTC_4412c.lib" /MACHINE:X64  /machine:x64 cmTC_4412c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4412c.vcxproj -> D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfmnny\\Debug\\cmTC_4412c.exe
         FinalizeBuildStatus:
-          Файл "cmTC_c9f4d.dir\\Debug\\cmTC_c9f4d.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_c9f4d.dir\\Debug\\cmTC_c9f4d.tlog\\cmTC_c9f4d.lastbuildstate".
-        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8snreb\\cmTC_c9f4d.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_4412c.dir\\Debug\\cmTC_4412c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_4412c.dir\\Debug\\cmTC_4412c.tlog\\cmTC_4412c.lastbuildstate".
+        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfmnny\\cmTC_4412c.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.47
+        Прошло времени 00:00:00.50
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-5c69z7"
+      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-5c69z7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Cpp/simpleEngine/simpleEngine/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-5c69z7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_727ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 12.02.2024 14:03:53.
+        
+        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\cmTC_727ea.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_727ea.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\Debug\\".
+          Создание каталога "cmTC_727ea.dir\\Debug\\cmTC_727ea.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_727ea.dir\\Debug\\cmTC_727ea.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_727ea.dir\\Debug\\cmTC_727ea.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_727ea.dir\\Debug\\\\" /Fd"cmTC_727ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_727ea.dir\\Debug\\\\" /Fd"cmTC_727ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\src.c"
+          src.c
+        D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\cmTC_727ea.vcxproj]
+        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\cmTC_727ea.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\cmTC_727ea.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5c69z7\\cmTC_727ea.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-tykquw"
+      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-tykquw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Cpp/simpleEngine/simpleEngine/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-tykquw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95b06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 12.02.2024 14:03:53.
+        
+        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\cmTC_95b06.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_95b06.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\Debug\\".
+          Создание каталога "cmTC_95b06.dir\\Debug\\cmTC_95b06.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_95b06.dir\\Debug\\cmTC_95b06.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_95b06.dir\\Debug\\cmTC_95b06.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95b06.dir\\Debug\\\\" /Fd"cmTC_95b06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95b06.dir\\Debug\\\\" /Fd"cmTC_95b06.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\Debug\\cmTC_95b06.exe" /INCREMENTAL /ILK:"cmTC_95b06.dir\\Debug\\cmTC_95b06.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-tykquw/Debug/cmTC_95b06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-tykquw/Debug/cmTC_95b06.lib" /MACHINE:X64  /machine:x64 cmTC_95b06.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\cmTC_95b06.vcxproj]
+        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\cmTC_95b06.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\cmTC_95b06.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tykquw\\cmTC_95b06.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-dxgyl0"
+      binary: "D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-dxgyl0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Cpp/simpleEngine/simpleEngine/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-dxgyl0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5ef84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 12.02.2024 14:03:54.
+        
+        Проект "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\cmTC_5ef84.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5ef84.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\Debug\\".
+          Создание каталога "cmTC_5ef84.dir\\Debug\\cmTC_5ef84.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5ef84.dir\\Debug\\cmTC_5ef84.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_5ef84.dir\\Debug\\cmTC_5ef84.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef84.dir\\Debug\\\\" /Fd"cmTC_5ef84.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef84.dir\\Debug\\\\" /Fd"cmTC_5ef84.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\Debug\\cmTC_5ef84.exe" /INCREMENTAL /ILK:"cmTC_5ef84.dir\\Debug\\cmTC_5ef84.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-dxgyl0/Debug/cmTC_5ef84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Cpp/simpleEngine/simpleEngine/build/CMakeFiles/CMakeScratch/TryCompile-dxgyl0/Debug/cmTC_5ef84.lib" /MACHINE:X64  /machine:x64 cmTC_5ef84.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\cmTC_5ef84.vcxproj]
+        Сборка проекта "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\cmTC_5ef84.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\cmTC_5ef84.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [D:\\Cpp\\simpleEngine\\simpleEngine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dxgyl0\\cmTC_5ef84.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.41
+        
+      exitCode: 1
 ...
