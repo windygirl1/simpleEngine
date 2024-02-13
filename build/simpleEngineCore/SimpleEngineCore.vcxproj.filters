@@ -4,12 +4,18 @@
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\application.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\log.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\window.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

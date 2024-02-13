@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes;D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src;D:\Cpp\simpleEngine\simpleEngine\external\glfw\include;D:\Cpp\simpleEngine\simpleEngine\external\spdlog\include;D:\Cpp\simpleEngine\simpleEngine\external\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -275,7 +275,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\application.hpp" />
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\log.hpp" />
+    <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\window.hpp" />
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\application.cpp" />
+    <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\ZERO_CHECK.vcxproj">
