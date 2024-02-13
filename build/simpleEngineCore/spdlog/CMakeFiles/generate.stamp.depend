@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+D:/Cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Cmake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+D:/Cmake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+D:/Cmake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/Cmake/share/cmake-3.28/Modules/FindThreads.cmake
+D:/Cmake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/Cpp/simpleEngine/simpleEngine/external/spdlog/CMakeLists.txt
+D:/Cpp/simpleEngine/simpleEngine/external/spdlog/cmake/ide.cmake
+D:/Cpp/simpleEngine/simpleEngine/external/spdlog/cmake/utils.cmake

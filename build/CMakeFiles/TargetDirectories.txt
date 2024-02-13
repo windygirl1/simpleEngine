@@ -9,5 +9,11 @@ D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/CMakeFiles/ALL_BUIL
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/src/CMakeFiles/glfw.dir
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/src/CMakeFiles/update_mappings.dir
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glfw/src/CMakeFiles/INSTALL.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/spdlog/CMakeFiles/spdlog.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/spdlog/CMakeFiles/INSTALL.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/spdlog/CMakeFiles/ALL_BUILD.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glad/CMakeFiles/glad.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glad/CMakeFiles/INSTALL.dir
+D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/glad/CMakeFiles/ALL_BUILD.dir
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineEditor/CMakeFiles/SimpleEngineEditor.dir
 D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineEditor/CMakeFiles/INSTALL.dir

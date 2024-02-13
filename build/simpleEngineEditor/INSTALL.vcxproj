@@ -195,7 +195,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\ALL_BUILD.vcxproj">
+    <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\spdlog\ALL_BUILD.vcxproj">
       <Project>{9ADF8134-A129-3864-8C12-12932918922E}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

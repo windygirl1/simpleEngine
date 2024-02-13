@@ -25,6 +25,8 @@
   -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
   -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
   -- Including Win32 support
+  -- Build spdlog: 1.13.0
+  -- Build type: 
   -- Configuring done (0.1s)
-  -- Generating done (0.4s)
+  -- Generating done (0.3s)
   -- Build files have been written to: D:/Cpp/simpleEngine/simpleEngine/build

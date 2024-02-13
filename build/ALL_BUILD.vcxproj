@@ -181,9 +181,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{FE2E4288-6A79-3207-AC7C-3214515711C2}</Project>
       <Name>SimpleEngineEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\glad\glad.vcxproj">
+      <Project>{E1CACA36-4555-3689-B9B7-C08A70A229DE}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\glfw\src\glfw.vcxproj">
       <Project>{9057ED5E-8C56-369B-A22A-2055E4E7B3A3}</Project>
       <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\spdlog\spdlog.vcxproj">
+      <Project>{E07F21E2-EF04-3AD4-8B68-697D3AC7EF74}</Project>
+      <Name>spdlog</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
