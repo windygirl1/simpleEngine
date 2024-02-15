@@ -1,6 +1,9 @@
 #pragma once
 
+#include "simpleEngineCore/event.hpp"
+ 
 #include <string>
+#include <functional>
 
 struct GLFWwindow;
 
@@ -8,6 +11,8 @@ namespace SimpleEngine {
 
 	class Window {
 	public:
+		using eventCallback = std::function<void(BaseEvent&)>;
+
 		Window(std::string title, const unsigned int width, const unsigned int height);
 		~Window();
 
@@ -18,17 +23,29 @@ namespace SimpleEngine {
 
 		void onUpdate();
 
-		unsigned int getWidth() const { return m_width; }
-		unsigned int getHeight() const { return m_height; }
+		unsigned int getWidth() const { return m_data.width; }
+		unsigned int getHeight() const { return m_data.height; }
+
+		void setEventCallback(const eventCallback& callback) {
+			m_data.eventCallbackfn = callback;
+		}
 
 	private:
+		struct windowData {
+			std::string title;
+			unsigned int width;
+			unsigned int height;
+			eventCallback eventCallbackfn;
+		};
+
+
 		int init();
 		void shutdown();
 
-		GLFWwindow* pWindow;
-		std::string m_title;
-		unsigned int m_width;
-		unsigned int m_height;
+		GLFWwindow* pWindow = nullptr;
+		
+		windowData m_data;
+
 	};
 
 }

@@ -5,6 +5,7 @@ set(ENGINE_PROJECT_NAME SimpleEngineCore)
 set(ENGINE_PUBLIC_INCLUDES
 	includes/simpleEngineCore/application.hpp
 	includes/simpleEngineCore/log.hpp
+	includes/simpleEngineCore/event.hpp
 )
 
 set(ENGINE_PRIVATE_INCLUDES

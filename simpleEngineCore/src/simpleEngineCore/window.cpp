@@ -8,15 +8,12 @@ namespace SimpleEngine {
 
     static bool GLFW_initialized = false;
 
-	Window::Window(
-		std::string title, 
-		const unsigned int width, 
-		const unsigned int height) 
-			: m_title(std::move(title)), 
-			m_width(width), 
-			m_height(height) {
-
-		int resCode = init();
+    Window::Window(
+        std::string title,
+        const unsigned int width,
+        const unsigned int height)
+        : m_data({ std::move(title), width, height }) {
+		    int resCode = init();
 	}
 
 	Window::~Window() {
@@ -24,7 +21,7 @@ namespace SimpleEngine {
 	}
 
 	int Window::init() {
-        LOG_INFO("Creating window {0} width size {1}x{2}", m_title, m_width, m_height);
+        LOG_INFO("Creating window {0} width size {1}x{2}", m_data.title, m_data.width, m_data.height);
 
         if (!GLFW_initialized) {
             if (!glfwInit()) {
@@ -34,10 +31,10 @@ namespace SimpleEngine {
             GLFW_initialized = true;
         }
 
-        pWindow = glfwCreateWindow(m_width, m_height, m_title.c_str(), nullptr, nullptr);
+        pWindow = glfwCreateWindow(m_data.width, m_data.height, m_data.title.c_str(), nullptr, nullptr);
         if (!pWindow)
         {
-            LOG_CRIT("Can`t create the window{0} width size {1}x{2}", m_title, m_width, m_height);
+            LOG_CRIT("Can`t create the window{0} width size {1}x{2}", m_data.title, m_data.width, m_data.height);
             glfwTerminate();
             return -2;
         }
@@ -49,6 +46,33 @@ namespace SimpleEngine {
             glfwTerminate();
             return -3;
         }
+
+        glfwSetWindowUserPointer(pWindow, &m_data);
+
+        glfwSetWindowSizeCallback(pWindow, [](GLFWwindow* pWindow, int width, int height) {
+
+            windowData& data = *static_cast<windowData*>(glfwGetWindowUserPointer(pWindow));
+
+            data.width = width;
+            data.height = height;
+
+            EventWindowResize wR(width, height);
+            data.eventCallbackfn(wR);
+        });
+
+        glfwSetCursorPosCallback(pWindow, [](GLFWwindow* pWindow, double x, double y) {
+            windowData& data = *static_cast<windowData*>(glfwGetWindowUserPointer(pWindow));
+
+            EventMouseMoved mM(x, y);
+            data.eventCallbackfn(mM);
+        });
+
+        glfwSetWindowCloseCallback(pWindow, [](GLFWwindow* pWindow) {
+            windowData& data = *static_cast<windowData*>(glfwGetWindowUserPointer(pWindow));
+
+            EventWindowClose wC;
+            data.eventCallbackfn(wC);
+        });
 
         return 0;
         
