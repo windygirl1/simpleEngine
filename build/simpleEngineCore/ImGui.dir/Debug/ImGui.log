@@ -1,10 +1,1 @@
-﻿  Building Custom Rule D:/Cpp/simpleEngine/simpleEngine/simpleEngineCore/CMakeLists.txt
-  imgui.cpp
-  imgui_impl_glfw.cpp
-  imgui_impl_opengl3.cpp
-  imgui_draw.cpp
-  imgui_tables.cpp
-  imgui_widgets.cpp
-  imgui_demo.cpp
-  Создание кода...
-  ImGui.vcxproj -> D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\Debug\ImGui.lib
+﻿  ImGui.vcxproj -> D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\Debug\ImGui.lib

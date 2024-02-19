@@ -1,5 +1,7 @@
-#include "simpleEngineCore/window.hpp"
+#include "window.hpp"
 #include "simpleEngineCore/log.hpp"
+#include "simpleEngineCore/Rendering/OpenGL/shaderProgram.hpp"
+#include "simpleEngineCore/Rendering/OpenGL/vertexBuffer.hpp"
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -42,7 +44,9 @@ namespace SimpleEngine {
         " frag_color = vec4(color, 1.0);"
         "}";
 
-    GLuint shaderProgram;
+    std::unique_ptr<ShaderProgram> pShaderProgram;
+    std::unique_ptr<VertexBuffer> pPointsVbo;
+    std::unique_ptr<VertexBuffer> pColorsVbo;
     GLuint vao;
 
     Window::Window(
@@ -119,29 +123,13 @@ namespace SimpleEngine {
             glViewport(0, 0, width, height);
         });
 
+        pShaderProgram = std::make_unique<ShaderProgram>(vertexShader, fragmentShader);
+        if (!pShaderProgram->isCompiled()) {
+            return false;
+        }
 
-
-        GLuint vs = glCreateShader(GL_VERTEX_SHADER);
-        glShaderSource(vs, 1, &vertexShader, nullptr);
-        glCompileShader(vs);
-
-        GLuint fs = glCreateShader(GL_FRAGMENT_SHADER);
-        glShaderSource(fs, 1, &fragmentShader, nullptr);
-        glCompileShader(fs);
-
-        shaderProgram = glCreateProgram();
-        glAttachShader(shaderProgram, vs);
-        glAttachShader(shaderProgram, fs);
-
-        glLinkProgram(shaderProgram);
-
-        glDeleteShader(vs);
-        glDeleteShader(fs);
-
-        GLuint pointsVbo = 0;
-        glGenBuffers(1, &pointsVbo);
-        glBindBuffer(GL_ARRAY_BUFFER, pointsVbo);
-        glBufferData(GL_ARRAY_BUFFER, sizeof(points), points, GL_STATIC_DRAW);
+        pPointsVbo = std::make_unique<VertexBuffer>(points, sizeof(points));
+        pColorsVbo = std::make_unique<VertexBuffer>(colors, sizeof(colors));
 
         GLuint colorsVbo = 0;
         glGenBuffers(1, &colorsVbo);
@@ -152,11 +140,11 @@ namespace SimpleEngine {
         glBindVertexArray(vao);
 
         glEnableVertexAttribArray(0);
-        glBindBuffer(GL_ARRAY_BUFFER, pointsVbo);
+        pPointsVbo->bind();
         glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
         glEnableVertexAttribArray(1);
-        glBindBuffer(GL_ARRAY_BUFFER, colorsVbo);
+        pColorsVbo->bind();
         glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
 
         return 0;
@@ -172,7 +160,7 @@ namespace SimpleEngine {
         glClearColor(backgoundColor[0], backgoundColor[1], backgoundColor[2], backgoundColor[3]);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        glUseProgram(shaderProgram);
+        pShaderProgram->bind();
         glBindVertexArray(vao);
         glDrawArrays(GL_TRIANGLES, 0, 3);
 

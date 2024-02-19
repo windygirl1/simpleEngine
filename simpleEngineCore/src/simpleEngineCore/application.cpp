@@ -1,6 +1,6 @@
 #include "simpleEngineCore/application.hpp"
 #include "simpleEngineCore/log.hpp"
-#include "simpleEngineCore/window.hpp"
+#include "window.hpp"
 #include "SimpleEngineCore/Event.hpp"
 
 #include <iostream>
@@ -20,7 +20,7 @@ namespace SimpleEngine {
 
 		eventDispatcher.addEventListener<EventMouseMoved>(
 			[](EventMouseMoved& e) {
-				LOG_INFO("[MouseMoved] Mouse moved to {0}x{1}", e.x, e.y);
+				//LOG_INFO("[MouseMoved] Mouse moved to {0}x{1}", e.x, e.y);
 			}
 		);
 

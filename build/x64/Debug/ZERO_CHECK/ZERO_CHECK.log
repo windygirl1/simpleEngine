@@ -1,1 +1,32 @@
 ﻿  1>Checking Build System
+  CMake is re-running because D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/Cpp/simpleEngine/simpleEngine/simpleEngineCore/CMakeLists.txt'
+    is newer than 'D:/Cpp/simpleEngine/simpleEngine/build/simpleEngineCore/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  CMake Warning (dev) in CMakeLists.txt:
+    No project() command is present.  The top-level CMakeLists.txt file must
+    contain a literal, direct call to the project() command.  Add a line of
+    code such as
+  
+      project(ProjectName)
+  
+    near the top of the file, but after cmake_minimum_required().
+  
+    CMake is pretending there is a "project(Project)" command on the first
+    line.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) in CMakeLists.txt:
+    cmake_minimum_required() should be called prior to this top-level project()
+    call.  Please see the cmake-commands(7) manual for usage documentation of
+    both commands.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+  -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+  -- Including Win32 support
+  -- Build spdlog: 1.13.0
+  -- Build type: 
+  -- Configuring done (0.1s)
+  -- Generating done (0.4s)
+  -- Build files have been written to: D:/Cpp/simpleEngine/simpleEngine/build
