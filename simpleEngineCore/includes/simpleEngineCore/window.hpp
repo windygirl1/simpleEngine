@@ -46,6 +46,8 @@ namespace SimpleEngine {
 		
 		windowData m_data;
 
+		float backgoundColor[4] = { 1.f, 0.f, 0.f, 0.f };
+
 	};
 
 }

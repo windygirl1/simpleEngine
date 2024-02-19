@@ -116,7 +116,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\simpleEngineCore\Debug\SimpleEngineCore.lib;..\simpleEngineCore\glfw\src\Debug\glfw3.lib;..\simpleEngineCore\spdlog\Debug\spdlogd.lib;..\simpleEngineCore\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\simpleEngineCore\Debug\SimpleEngineCore.lib;..\simpleEngineCore\spdlog\Debug\spdlogd.lib;..\simpleEngineCore\Debug\ImGui.lib;..\simpleEngineCore\glfw\src\Debug\glfw3.lib;..\simpleEngineCore\glad\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -161,7 +161,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\simpleEngineCore\Release\SimpleEngineCore.lib;..\simpleEngineCore\glfw\src\Release\glfw3.lib;..\simpleEngineCore\spdlog\Release\spdlog.lib;..\simpleEngineCore\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\simpleEngineCore\Release\SimpleEngineCore.lib;..\simpleEngineCore\spdlog\Release\spdlog.lib;..\simpleEngineCore\Release\ImGui.lib;..\simpleEngineCore\glfw\src\Release\glfw3.lib;..\simpleEngineCore\glad\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -206,7 +206,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\simpleEngineCore\MinSizeRel\SimpleEngineCore.lib;..\simpleEngineCore\glfw\src\MinSizeRel\glfw3.lib;..\simpleEngineCore\spdlog\MinSizeRel\spdlog.lib;..\simpleEngineCore\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\simpleEngineCore\MinSizeRel\SimpleEngineCore.lib;..\simpleEngineCore\spdlog\MinSizeRel\spdlog.lib;..\simpleEngineCore\MinSizeRel\ImGui.lib;..\simpleEngineCore\glfw\src\MinSizeRel\glfw3.lib;..\simpleEngineCore\glad\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -250,7 +250,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\simpleEngineCore\RelWithDebInfo\SimpleEngineCore.lib;..\simpleEngineCore\glfw\src\RelWithDebInfo\glfw3.lib;..\simpleEngineCore\spdlog\RelWithDebInfo\spdlog.lib;..\simpleEngineCore\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\simpleEngineCore\RelWithDebInfo\SimpleEngineCore.lib;..\simpleEngineCore\spdlog\RelWithDebInfo\spdlog.lib;..\simpleEngineCore\RelWithDebInfo\ImGui.lib;..\simpleEngineCore\glfw\src\RelWithDebInfo\glfw3.lib;..\simpleEngineCore\glad\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -329,6 +329,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\ImGui.vcxproj">
+      <Project>{079C974E-B713-3F97-ABEE-E106FEB00CEC}</Project>
+      <Name>ImGui</Name>
     </ProjectReference>
     <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\SimpleEngineCore.vcxproj">
       <Project>{0602A1E5-13F9-394A-80C0-07737F591EC9}</Project>

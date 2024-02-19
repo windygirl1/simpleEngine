@@ -1,9 +1,0 @@
-﻿  Building Custom Rule D:/Cpp/simpleEngine/simpleEngine/external/spdlog/CMakeLists.txt
-  spdlog.cpp
-  stdout_sinks.cpp
-  color_sinks.cpp
-  file_sinks.cpp
-  async.cpp
-  cfg.cpp
-  bundled_fmtlib_format.cpp
-  spdlog.vcxproj -> D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\spdlog\Release\spdlog.lib
