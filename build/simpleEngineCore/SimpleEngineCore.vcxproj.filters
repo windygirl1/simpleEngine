@@ -13,6 +13,9 @@
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexBuffer.cpp">
       <Filter>src\simpleEngineCore\Rendering\OpenGL</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexArray.cpp">
+      <Filter>src\simpleEngineCore\Rendering\OpenGL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\includes\simpleEngineCore\application.hpp">
@@ -31,6 +34,9 @@
       <Filter>src\simpleEngineCore\Rendering\OpenGL</Filter>
     </ClInclude>
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexBuffer.hpp">
+      <Filter>src\simpleEngineCore\Rendering\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexArray.hpp">
       <Filter>src\simpleEngineCore\Rendering\OpenGL</Filter>
     </ClInclude>
   </ItemGroup>
