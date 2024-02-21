@@ -3,3 +3,4 @@ D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\window.cp
 D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\shaderProgram.cpp;D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\SimpleEngineCore.dir\Debug\shaderProgram.obj
 D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexBuffer.cpp;D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\SimpleEngineCore.dir\Debug\vertexBuffer.obj
 D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexArray.cpp;D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\SimpleEngineCore.dir\Debug\vertexArray.obj
+D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\indexBuffer.cpp;D:\Cpp\simpleEngine\simpleEngine\build\simpleEngineCore\SimpleEngineCore.dir\Debug\indexBuffer.obj

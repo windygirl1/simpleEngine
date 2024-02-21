@@ -280,11 +280,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\shaderProgram.hpp" />
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexBuffer.hpp" />
     <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexArray.hpp" />
+    <ClInclude Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\indexBuffer.hpp" />
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\application.cpp" />
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\window.cpp" />
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\shaderProgram.cpp" />
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexBuffer.cpp" />
     <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\vertexArray.cpp" />
+    <ClCompile Include="D:\Cpp\simpleEngine\simpleEngine\simpleEngineCore\src\simpleEngineCore\Rendering\OpenGL\indexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Cpp\simpleEngine\simpleEngine\build\ZERO_CHECK.vcxproj">

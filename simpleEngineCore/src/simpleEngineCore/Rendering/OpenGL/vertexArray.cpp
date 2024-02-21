@@ -25,7 +25,7 @@ namespace SimpleEngine {
 		vertexArray.m_elements_count = 0;
 	}
 
-	void VertexArray::addBuffer(const VertexBuffer& vertexBuffer) {
+	void VertexArray::addVertexBuffer(const VertexBuffer& vertexBuffer) {
 		bind();
 		vertexBuffer.bind();
 
@@ -41,6 +41,12 @@ namespace SimpleEngine {
 			);
 			++m_elements_count;
 		}
+	}
+
+	void VertexArray::setIndexBuffer(const IndexBuffer& indexBuffer) {
+		bind();
+		indexBuffer.bind();
+		m_indices_count = indexBuffer.getCount();
 	}
 
 	void VertexArray::bind() const {
